@@ -63,6 +63,8 @@ public class UIThings3 : MonoBehaviour
 
     public GameObject roundGone3;
 
+    public GameObject deathStinger;
+
 
     void Start()
     {
@@ -339,6 +341,7 @@ public class UIThings3 : MonoBehaviour
           pleaseStop.stopping = true;
           roundGone.SetActive(true);
           yield return new WaitForSeconds(0.5f);
+          deathStinger.SetActive(true);
           roundGone2.SetActive(true);
           yield return new WaitForSeconds(0.5f);
            roundGone3.SetActive(true);

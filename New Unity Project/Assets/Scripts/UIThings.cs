@@ -117,7 +117,7 @@ public class UIThings : MonoBehaviour
         blackFade2.SetActive(true);
         blackFade3.SetBool("otherWay", true);
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene(currentScene);
+        SceneManager.LoadScene(currentScene - 1);
     }
 
     public void NextRound()
