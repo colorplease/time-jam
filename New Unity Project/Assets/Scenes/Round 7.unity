@@ -7269,10 +7269,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canSpawnDoodle: 0
   platformSpawnY: 0
-  maxSpikes: 10
+  maxSpikes: 5
   maxDoodles: 15
-  maxAirEnemies: 2
-  maxGroundEnemies: 2
+  maxAirEnemies: 1
+  maxGroundEnemies: 1
   groundHazardSpawnTimer: 20
   airHazardspawnTimer: 15
   platformSpawnTimer: 45
@@ -10738,7 +10738,7 @@ MonoBehaviour:
   uiText: {fileID: 1909513768}
   Duration: 10000
   stopping: 0
-  currentScene: 16
+  currentScene: 11
   blackFade: {fileID: 2020135375}
   blackFade3: {fileID: 2031531043}
   audioTransistion: {fileID: 483723008}

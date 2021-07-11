@@ -39,24 +39,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Shop 5.unity
     guid: fe66e9512baea3148bf5399d117bf091
   - enabled: 1
-    path: Assets/Scenes/Round 5.unity
-    guid: 347201fb120c0ad47916c7906b167fc0
-  - enabled: 1
-    path: Assets/Scenes/Shop 6.unity
-    guid: fe98323e420dc5741b9727f084c9fd10
-  - enabled: 1
-    path: Assets/Scenes/Round 6.unity
-    guid: e3c4b563c309bd5428e224ab460ed669
-  - enabled: 1
-    path: Assets/Scenes/Shop 7.unity
-    guid: 3511872cfa79e064ab048ffca6639bb7
-  - enabled: 1
-    path: Assets/Scenes/Bully Intro Scene.unity
-    guid: 7f9e9b590b23e2243b4a9b3ba745e975
-  - enabled: 1
     path: Assets/Scenes/Round 7.unity
     guid: 5812119a1f378a04084005a5ff58e1e1
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: b03746528fc29124ea01ba5aa12dfada
+  - enabled: 1
+    path: Assets/Scenes/Bully Intro Scene.unity
+    guid: 7f9e9b590b23e2243b4a9b3ba745e975
   m_configObjects: {}

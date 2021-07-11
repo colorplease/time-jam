@@ -87,6 +87,6 @@ public class CutsceneText1 : MonoBehaviour
     {
         finished.SetBool("lol", true);
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene(16);
+        SceneManager.LoadScene(11);
     }
 }

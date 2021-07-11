@@ -302,8 +302,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transform1: {fileID: 0}
   movingThingTransform: {fileID: 0}
-  chasingPlayerSpeed: 0.025
-  reflectedSpeed: 0.05
+  chasingPlayerSpeed: 0.05
+  reflectedSpeed: 0.1
   isReflected: 0
   gotcha: 0
   player: {fileID: 0}
