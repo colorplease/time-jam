@@ -26,7 +26,7 @@ public class PerkSystem : MonoBehaviour
 
     static public float inkRegenRate2 = 0.1f;
     static public float eraserUseRate = 0.1f;
-    static public float focusUseRate = 0.5f;
+    static public float focusUseRate = 1.5f;
     static public float startingHealth = 100;
 
     static public float startingEraser = 100;
@@ -101,7 +101,7 @@ public class PerkSystem : MonoBehaviour
 
         if (focusUseUpPerk == true)
         {
-            focusUseMultiplier = 0.5f;
+            focusUseMultiplier = 0.75f;
         }
         else if (focusUseDownPerk == true)
         {
@@ -129,7 +129,7 @@ public class PerkSystem : MonoBehaviour
         startingHealth = 100f * inkCapacityMultiplier;
         eraserUseRate = 20f * eraserUseMultiplier;
         startingEraser = 100f * eraserCapacityMultiplier;
-        focusUseRate = 0.5f * focusUseMultiplier;
+        focusUseRate = 1.5f * focusUseMultiplier;
         startingFocus = 150f * focusCapacityMultiplier;
 /*
         if (inkRegenUpPerk == true)
