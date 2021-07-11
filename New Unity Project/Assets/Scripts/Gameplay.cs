@@ -84,6 +84,11 @@ public class Gameplay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Menu");
+        }
+
 
         //Slows down time
         if (Input.GetKey(KeyCode.LeftShift))
