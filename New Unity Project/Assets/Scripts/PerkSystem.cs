@@ -127,7 +127,7 @@ public class PerkSystem : MonoBehaviour
 
         inkRegenRate2 = 0.1f * inkRegenMultiplier;
         startingHealth = 100f * inkCapacityMultiplier;
-        eraserUseRate = 0.1f * eraserUseMultiplier;
+        eraserUseRate = 20f * eraserUseMultiplier;
         startingEraser = 100f * eraserCapacityMultiplier;
         focusUseRate = 0.5f * focusUseMultiplier;
         startingFocus = 150f * focusCapacityMultiplier;
